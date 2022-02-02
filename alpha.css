@@ -1,4 +1,22 @@
+@font-face{
+    font-family:"Azo Sans";
+    src:url(font/AzoSans-Medium.ttf);
+    font-weight:500;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Azo Sans";
+    src:url(font/AzoSans-Regular.ttf);
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    font-family:"Azo Sans";
+    src:url(font/AzoSans-Bold.ttf);
+    font-weight:700;
+    font-style:normal;
 
+}
 body{
     background-color: #2936A2;
 }
@@ -49,13 +67,13 @@ body{
     color: #ffffff; 
 }
 .partner_heading{
-    font-family: 'Azo Sans,sans-serif';
-    font-weight: 400;
+    font-family: 'Azo Sans';
+    font-weight: 700;
     font-size: 50px;
     color: white;
 }
 .partner_para{
-    font-family: 'Azo Sans, sans-serif';
+    font-family: 'Azo Sans';
     font-size: 20px;
     font-weight: 400;
     color: #79C91B;
@@ -99,13 +117,13 @@ body{
 .partner-head{
     color:#FFFFFF;
     font-family:"Azo Sans";
-    font-weight:500;
+    font-weight:700;
 }
 .card-para{
     color:#FFFFFF;
     font-size:14px;
     font-weight: 400;
-    font-family:"Azo Sans,sans-serif";
+    font-family:"Azo Sans";
 }
 .white{
     color: #ffffff;
@@ -123,7 +141,7 @@ body{
         
       
     .footer-head{
-        font-family:"Azo Sans,sans-serif";
+        font-family:"Azo Sans";
         font-weight:700;
         font-size:20px;
         color:white; 
@@ -141,7 +159,7 @@ body{
   }
   
   .input{
-      font-family: "Azo Sans,sans-serif";
+      font-family: "Azo Sans";
       font-weight:400;
       font-size:12px;
       border-radius:30px;
@@ -159,7 +177,7 @@ body{
     
   
   .button{
-      font-family:"Azo Sans,sans-serif";
+      font-family:"Azo Sans";
       font-weight:400;
       font-size:12px;
       color:#FFFFFF; 
@@ -177,7 +195,7 @@ body{
   }
       
   .footer-para{
-      font-family: "Azo Sans,sans-serif";
+      font-family: "Azo Sans";
       font-weight:400;
       font-size:14px;
       color:#FFFFFF; 
@@ -194,7 +212,7 @@ body{
   
   .address{
   
-      font-family:"Azo Sans,sans-serif";
+      font-family:"Azo Sans";
       font-weight:400;
       font-size:14px;
       color:#FFFFFF; 
@@ -205,7 +223,7 @@ body{
   
   }
   .links{
-      font-family:"Azo Sans,sans-serif";
+      font-family:"Azo Sans";
       font-weight:400;
       font-size:13px;
       color:#FFFFFF; 
