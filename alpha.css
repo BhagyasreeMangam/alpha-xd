@@ -78,6 +78,18 @@ body{
     font-weight: 400;
     color: #79C91B;
 }
+.animation{
+     position:relative;
+     animation: img 2s infinite linear;
+     animation-direction:normal;
+     transition:.1s all linear;
+ }
+        @keyframes img {
+        0%{left:0px; bottom:0px;}
+        50%{left:0px;bottom:75px}
+        100%{left:0px; bottom:5px;}
+
+        }
 /*-------cardssss------------*/
 .diamond-container{
     position:relative;
