@@ -18,16 +18,19 @@ body{
     font-size:10px;
     /*padding-top:40px;*/
 }
-.nav-ele{
+/*.nav-ele{
     color:#70C618 !important;
     text-decoration: none;
     font-size:10px;
     letter-spacing: 3px;
-    border-bottom:1px solid #70C618 ;
-    /*padding-top:40px;*/
+}*/
+.nav-link{
+    transition: 0.3s normal;
 }
-
-
+.nav-link:hover{
+    color: #70c618 !important;
+    border-bottom: 1px solid #70c618;
+}
 .login{
     color:#70C618;
     font-size:12px;
@@ -46,7 +49,7 @@ body{
     color: #ffffff; 
 }
 .partner_heading{
-    font-family: 'Azo Sans, sans-serif';
+    font-family: 'Azo Sans,sans-serif';
     font-weight: 400;
     font-size: 50px;
     color: white;
@@ -84,10 +87,13 @@ body{
     color:#FFFFFF;
 }
 .card-head{
-    font-size:12px;
-    width:50px;
+    font-size:24px;
+    font-style: normal;
+    width: 150px;
     color:#FFFFFF;
-    font-family: "Azo Sans,sans-serif";
+    font-family: "Azo Sans";
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .partner-head{
